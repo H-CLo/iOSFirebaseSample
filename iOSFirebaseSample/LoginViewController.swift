@@ -26,9 +26,12 @@ class LoginViewController: UIViewController {
         Auth.auth().signIn(withEmail: account, password: password) { [weak self] user, error in
             guard let self = self else { return }
             if let _ = error {
-                
+                MessageTool.showMessage(msg: "您尚未註冊．")
             } else {
-                
+                if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "discussViewID") as? DiscussionViewController {
+                    let nav = UINavigationController(rootViewController: viewController)
+                    self.present(nav, animated: true, completion: nil)
+                }
             }
         }
     }

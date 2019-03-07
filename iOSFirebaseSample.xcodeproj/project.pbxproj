@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071D7DA222315A4D002D609E /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071D7DA122315A4D002D609E /* CommentViewController.swift */; };
+		071D7DA42231600E002D609E /* FirebaseDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071D7DA32231600E002D609E /* FirebaseDBManager.swift */; };
+		071D7DA622316F83002D609E /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071D7DA522316F83002D609E /* CommentTableViewCell.swift */; };
+		071D7DA9223173DA002D609E /* MovieReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071D7DA8223173DA002D609E /* MovieReviewModel.swift */; };
 		333A3302223113DA00806210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333A3301223113DA00806210 /* AppDelegate.swift */; };
-		333A3304223113DA00806210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333A3303223113DA00806210 /* ViewController.swift */; };
 		333A3307223113DA00806210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333A3305223113DA00806210 /* Main.storyboard */; };
 		333A3309223113DB00806210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333A3308223113DB00806210 /* Assets.xcassets */; };
 		333A330C223113DB00806210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333A330A223113DB00806210 /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		071D7DA122315A4D002D609E /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		071D7DA32231600E002D609E /* FirebaseDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDBManager.swift; sourceTree = "<group>"; };
+		071D7DA522316F83002D609E /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		071D7DA8223173DA002D609E /* MovieReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewModel.swift; sourceTree = "<group>"; };
 		333A32FE223113DA00806210 /* iOSFirebaseSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFirebaseSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333A3301223113DA00806210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		333A3303223113DA00806210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		333A3306223113DA00806210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		333A3308223113DB00806210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333A330B223113DB00806210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071D7DA7223173C1002D609E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				071D7DA8223173DA002D609E /* MovieReviewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		333A32F5223113DA00806210 = {
 			isa = PBXGroup;
 			children = (
@@ -85,12 +99,15 @@
 		333A3300223113DA00806210 /* iOSFirebaseSample */ = {
 			isa = PBXGroup;
 			children = (
+				071D7DA7223173C1002D609E /* Model */,
 				333A3301223113DA00806210 /* AppDelegate.swift */,
 				336B6E3A22311D430003D154 /* LoginViewController.swift */,
 				336B6E3C22311EE20003D154 /* RegisterViewController.swift */,
 				336B6E40223129AE0003D154 /* DiscussionViewController.swift */,
+				071D7DA522316F83002D609E /* CommentTableViewCell.swift */,
+				071D7DA122315A4D002D609E /* CommentViewController.swift */,
 				336B6E3E223120A10003D154 /* MessageTool.swift */,
-				333A3303223113DA00806210 /* ViewController.swift */,
+				071D7DA32231600E002D609E /* FirebaseDBManager.swift */,
 				333A3305223113DA00806210 /* Main.storyboard */,
 				333A3308223113DB00806210 /* Assets.xcassets */,
 				333A330A223113DB00806210 /* LaunchScreen.storyboard */,
@@ -248,10 +265,13 @@
 			files = (
 				336B6E41223129AE0003D154 /* DiscussionViewController.swift in Sources */,
 				336B6E3B22311D430003D154 /* LoginViewController.swift in Sources */,
+				071D7DA222315A4D002D609E /* CommentViewController.swift in Sources */,
+				071D7DA622316F83002D609E /* CommentTableViewCell.swift in Sources */,
 				336B6E3F223120A10003D154 /* MessageTool.swift in Sources */,
-				333A3304223113DA00806210 /* ViewController.swift in Sources */,
 				333A3302223113DA00806210 /* AppDelegate.swift in Sources */,
 				336B6E3D22311EE20003D154 /* RegisterViewController.swift in Sources */,
+				071D7DA9223173DA002D609E /* MovieReviewModel.swift in Sources */,
+				071D7DA42231600E002D609E /* FirebaseDBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
