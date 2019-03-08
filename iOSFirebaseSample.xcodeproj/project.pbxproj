@@ -15,7 +15,6 @@
 		333A3307223113DA00806210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333A3305223113DA00806210 /* Main.storyboard */; };
 		333A3309223113DB00806210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333A3308223113DB00806210 /* Assets.xcassets */; };
 		333A330C223113DB00806210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333A330A223113DB00806210 /* LaunchScreen.storyboard */; };
-		333A33142231183500806210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 333A33132231182D00806210 /* GoogleService-Info.plist */; };
 		336B6E3B22311D430003D154 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B6E3A22311D430003D154 /* LoginViewController.swift */; };
 		336B6E3D22311EE20003D154 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B6E3C22311EE20003D154 /* RegisterViewController.swift */; };
 		336B6E3F223120A10003D154 /* MessageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B6E3E223120A10003D154 /* MessageTool.swift */; };
@@ -47,7 +46,6 @@
 		333A3308223113DB00806210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333A330B223113DB00806210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333A330D223113DB00806210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		333A33132231182D00806210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		336B6E3422311AF50003D154 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		336B6E3A22311D430003D154 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		336B6E3C22311EE20003D154 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				333A3308223113DB00806210 /* Assets.xcassets */,
 				333A330A223113DB00806210 /* LaunchScreen.storyboard */,
 				333A330D223113DB00806210 /* Info.plist */,
-				333A33132231182D00806210 /* GoogleService-Info.plist */,
 			);
 			path = iOSFirebaseSample;
 			sourceTree = "<group>";
@@ -197,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				333A330C223113DB00806210 /* LaunchScreen.storyboard in Resources */,
-				333A33142231183500806210 /* GoogleService-Info.plist in Resources */,
 				333A3309223113DB00806210 /* Assets.xcassets in Resources */,
 				333A3307223113DA00806210 /* Main.storyboard in Resources */,
 			);
